@@ -1,10 +1,10 @@
-# 🎵 PROYECTO LIKEQUEST
+# PROYECTO LIKEQUEST
 
 Este proyecto consiste en una aplicación con un **Backend en Java (Spring Boot)** y un **Frontend en Flutter**, conectados a una base de datos **MySQL**.
 
 ---
 
-## 📋 Requisitos previos
+## Requisitos previos
 
 Asegúrate de tener instalado lo siguiente antes de empezar:
 
@@ -12,14 +12,11 @@ Asegúrate de tener instalado lo siguiente antes de empezar:
 - Flutter SDK y Visual Studio Code
 - MySQL Server (8.0 o superior)
 - Navegador Chrome (para ejecutar el frontend)
-- **FFmpeg y yt-dlp** (necesarios para la descarga y procesamiento de vídeo)
-  - Descarga FFmpeg `.exe`: https://ffmpeg.org/download.html
-  - Descarga yt-dlp `.exe`: https://github.com/yt-dlp/yt-dlp/releases
-  - Una vez descargados, colócalos en una carpeta llamada `tools` dentro de `LIKEQUEST_BACKEND`
+-
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 PROYECTO-LIKEQUEST/
@@ -30,9 +27,9 @@ PROYECTO-LIKEQUEST/
 
 ---
 
-## 🚀 Pasos para ejecutar el proyecto
+## Pasos para ejecutar el proyecto
 
-### 1. 🗄️ Base de Datos (MySQL)
+### 1.Base de Datos (MySQL)
 
 Antes de iniciar las aplicaciones, es necesario configurar la base de datos:
 
@@ -47,7 +44,7 @@ Antes de iniciar las aplicaciones, es necesario configurar la base de datos:
 
 ---
 
-### 2. ☕ Backend (Java Spring Boot)
+### 2. Backend (Java Spring Boot)
 
 1. Descomprime la carpeta `LIKEQUEST_BACKEND`
 2. Ábrela en IntelliJ IDEA (`File → Open → selecciona la carpeta`)
@@ -57,11 +54,11 @@ Antes de iniciar las aplicaciones, es necesario configurar la base de datos:
 5. Pulsa el botón ▶ **Run** (o `Shift + F10`)
 6. El servidor arrancará en: **http://localhost:8080**
 
-> ⚠️ Asegúrate de que la base de datos esté corriendo antes de iniciar el backend.
+> Asegúrate de que la base de datos esté corriendo antes de iniciar el backend.
 
 ---
 
-### 3. 📱 Frontend (Flutter)
+### 3. Frontend (Flutter)
 
 1. Descomprime la carpeta `FRONTED_LIKEQUEST`
 2. Ábrela en Visual Studio Code (`File → Open Folder → selecciona la carpeta`)
@@ -74,11 +71,11 @@ Antes de iniciar las aplicaciones, es necesario configurar la base de datos:
 5. Abre el archivo `lib/main.dart` y pulsa ▶ **Run** (o `F5`)
 6. La aplicación se abrirá automáticamente en Chrome
 
-> ⚠️ Asegúrate de que el backend esté corriendo en http://localhost:8080 antes de iniciar el frontend.
+> Asegúrate de que el backend esté corriendo en http://localhost:8080 antes de iniciar el frontend.
 
 ---
 
-## 📌 Orden de arranque recomendado
+## Orden de arranque recomendado
 
 ```
 1. MySQL  →  2. Backend (Spring Boot)  →  3. Frontend (Flutter)
@@ -86,7 +83,7 @@ Antes de iniciar las aplicaciones, es necesario configurar la base de datos:
 
 ---
 
-## ❗ Problemas comunes
+## Problemas comunes
 
 | Problema | Solución |
 |----------|----------|
